@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: larger;
+}
+.heading {
+    background-color: bisque;
+    padding: 10px;
+}
+
+.heading p {
+    color: chocolate;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+select {
+    width: 195px;
+    background-color: rgb(161, 227, 227);
+    color: rgb(48, 88, 246);
+}
+
+.videos, .audio {
+    background-color: rgb(163, 230, 201);
+    width: 45%;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.display {
+    width: 520px;
+    height: 317px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
