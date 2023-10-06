@@ -1,5 +1,4 @@
 const targetVideo = document.querySelector(".display");
-console.log(targetVideo);
 const vselected = document.querySelector("#vcategory");
 vselected.addEventListener("click", ()=>{
     if(vselected.value == "none") {
@@ -21,5 +20,21 @@ vselected.addEventListener("click", ()=>{
         targetVideo.innerHTML = `<iframe width="520" height="315" src="https://www.youtube.com/embed/DZKOunP-WLQ?si=SvSHvmt-4Rd5lrau" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
         
     }
+});
 
+
+const targetAudio = document.querySelector(".audioplay");
+const aselected = document.querySelector("#acategory");
+aselected.addEventListener("click", ()=>{
+    if(aselected.value == "none") {
+        targetAudio.innerHTML = "";
+    }
+    else if(aselected.value == "EDM") {
+        targetAudio.innerHTML = `<audio src="audio/Warriyo - Mortals.mp3" controls preload="none"></audio>`;
+        
+    }
+    else if(aselected.value == "lofi") {
+        targetAudio.innerHTML = `<audio src="audio/Serenity.mp3" controls preload="none"></audio>`;
+        
+    }
 });

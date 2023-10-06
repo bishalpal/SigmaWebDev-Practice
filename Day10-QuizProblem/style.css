@@ -6,6 +6,7 @@
 p {
     font-size: larger;
 }
+
 .heading {
     background-color: bisque;
     padding: 10px;
@@ -35,7 +36,12 @@ select {
 
 .display {
     width: 520px;
-    height: 317px;
+    height: 316px;
     margin: 20px auto;
     border: 2px solid black;
+}
+
+.audioplay {
+    width: 400px;
+    margin: 20px auto;
 }
